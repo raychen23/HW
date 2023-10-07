@@ -4,32 +4,32 @@
 int main(void) {
 
 	int a, b, c;
-	printf("块3ぃ俱计");
+	printf("enter 3 different intergers");
 	scanf("%d%d%d", &a, &b, &c);
 
 	if (a > b && a > c && b > c) {
 
-		printf("a琌程 c琌程");
+		printf(a, "is the biggest", c ,"is the smallest");
 	}
 	if (a > b && a > c && c > b) {
 
-		printf("a琌程 b琌程");
+		printf(a, "is the biggest", b, "is the smallest");
 	}
 	if (b > a && b > c && a > c) {
 
-		printf("b琌程 c琌程");
+		printf(b, "is the biggest", c, "is the smallest");
 	}
 	if (b > a && b > c && c > a) {
 
-		printf("b琌程 a琌程");
+		printf(b, "is the biggest", a, "is the smallest");
 	}
 	if (c > a && c > b && b > a) {
 
-		printf("c琌程 a琌程");
+		printf(c, "is the biggest", a, "is the smallest");
 	}
 	if (c > a && c > b && a > b) {
 
-		printf("c琌程 b琌程");
+		printf(c, "is the biggest", b, "is the smallest");
 	}
 	return 0;
 }
