@@ -9,27 +9,27 @@ int main(void) {
 
 	if (a > b && a > c && b > c) {
 
-		printf(a, "is the biggest", c ,"is the smallest");
+		printf("%d is the biggest %dis the smallest", a, c);
 	}
 	if (a > b && a > c && c > b) {
 
-		printf(a, "is the biggest", b, "is the smallest");
+		printf("%d is the biggest %dis the smallest", a, b);
 	}
 	if (b > a && b > c && a > c) {
 
-		printf(b, "is the biggest", c, "is the smallest");
+		printf("%d is the biggest %dis the smallest", b, c);
 	}
 	if (b > a && b > c && c > a) {
 
-		printf(b, "is the biggest", a, "is the smallest");
+		printf("%d is the biggest %dis the smallest", b, a);
 	}
 	if (c > a && c > b && b > a) {
 
-		printf(c, "is the biggest", a, "is the smallest");
+		printf("%d is the biggest %dis the smallest", c, a);
 	}
 	if (c > a && c > b && a > b) {
 
-		printf(c, "is the biggest", b, "is the smallest");
+		printf("%d is the biggest %dis the smallest", c, b);
 	}
 	return 0;
 }
